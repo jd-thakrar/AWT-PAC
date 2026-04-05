@@ -84,11 +84,11 @@ function Courses() {
                 </p>
 
                 <button onClick={() => markInterested(course.id)}>
-                  {interested.includes(course.id) ? "Interested ✅" : "Interested"}
+                  {interested.includes(course.id) ? "Interested ✔️" : "Interested"}
                 </button>
 
                 <button onClick={() => markEnrolled(course.id)}>
-                  {enrolled.includes(course.id) ? "Enrolled ✅" : "Enroll"}
+                  {enrolled.includes(course.id) ? "Enrolled ✔️" : "Enroll"}
                 </button>
               </div>
             );
